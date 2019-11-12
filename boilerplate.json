@@ -1,0 +1,11 @@
+{
+    "name": "TypeScript Aurelia Interaction Adornment",
+    "type": "interaction",
+    "target": "web",
+    "language": "typescript",
+    "framework": "aurelia",
+    "parent": {
+        "type": "boundedContext"
+    },
+    "description": "This is an adornment to a bounded context"
+}
