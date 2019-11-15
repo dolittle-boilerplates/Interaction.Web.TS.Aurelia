@@ -7,7 +7,7 @@ const { spawn } = require('child_process');
 
 // { production: true }
 
-const webpackConfig = require('./webpack.config.js')();
+const webpackConfig = require('../webpack.config.js')();
 
 const compiler = webpack(webpackConfig);
 compiler.

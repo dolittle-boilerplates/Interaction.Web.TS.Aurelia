@@ -7,7 +7,6 @@ import environment from './environment';
 import { PLATFORM } from 'aurelia-pal';
 
 export function configure(aurelia: Aurelia) {
-  console.log('Hello')
   aurelia.use.standardConfiguration();
 
   if (environment.debug) {
