@@ -1,2 +1,3 @@
-const wallaby = require('@dolittle/build.aurelia/wallaby')
-module.exports = wallaby('Features');
+const build = require('@dolittle/typescript.build');
+
+module.exports = build.wallaby();

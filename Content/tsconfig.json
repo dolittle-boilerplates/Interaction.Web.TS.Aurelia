@@ -1,15 +1,8 @@
 {
+  "extends": "./node_modules/@dolittle/typescript.build/TSConfig/tsconfig.base.json",
   "compilerOptions": {
     "baseUrl": "./Features",
-    "sourceMap": true,
-    "noImplicitAny": false,
-    "target": "es5",
-    "module": "esnext",
-    "moduleResolution": "node",
     "allowJs": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
-  },
-  "include": ["./custom_typings/**/*.d.ts", "./**/*.ts"],
-  "exclude": ["node_modules"]
+    "declaration": false,
+  }
 }

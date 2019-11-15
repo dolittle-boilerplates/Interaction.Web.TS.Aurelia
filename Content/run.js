@@ -10,7 +10,7 @@ const { spawn } = require('child_process');
 const webpackConfig = require('./webpack.config.js')();
 
 const compiler = webpack(webpackConfig);
-
+compiler.
 compiler.watch({
     // Example watchOptions
     aggregateTimeout: 300,
