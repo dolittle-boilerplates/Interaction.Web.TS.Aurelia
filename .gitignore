@@ -322,3 +322,4 @@ ASALocalRun/
 *.binlog
 
 yarn.lock
+.DS_Store
