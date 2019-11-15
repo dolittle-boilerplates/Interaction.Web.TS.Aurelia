@@ -2,8 +2,9 @@
  *  Copyright (c) Dolittle. All rights reserved.
  *  Licensed under the MIT License. See LICENSE in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
+import { Aurelia } from 'aurelia-framework';
 import environment from './environment';
-import { Aurelia, PLATFORM } from 'aurelia-framework';
+import { PLATFORM } from 'aurelia-pal';
 
 export function configure(aurelia: Aurelia) {
   console.log('Hello')
