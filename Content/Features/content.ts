@@ -1,3 +1,3 @@
-export class content {
+export class Content {
   attached() {}
 }

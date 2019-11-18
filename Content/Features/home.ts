@@ -1,10 +1,9 @@
-import { inject } from 'aurelia-dependency-injection';
+import { autoinject } from 'aurelia-dependency-injection';
 
-const CommandCoordinator = require('@dolittle/commands').CommandCoordinator;
-const QueryCoordinator = require('@dolittle/queries').QueryCoordinator;
+import {CommandCoordinator} from '@dolittle/commands';
+import {QueryCoordinator} from '@dolittle/queries';
 
-@inject(CommandCoordinator, QueryCoordinator)
-export class home {
-
-  constructor(private _commandCoordinator: any, private _queryCoordinator: any) {}
+@autoinject
+export class Home {
+  constructor(private _commandCoordinator: CommandCoordinator, private _queryCoordinator: QueryCoordinator) {}
 }

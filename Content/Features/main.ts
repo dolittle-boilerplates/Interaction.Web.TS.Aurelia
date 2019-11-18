@@ -5,6 +5,7 @@
 import { Aurelia } from 'aurelia-framework';
 import environment from './environment';
 import { PLATFORM } from 'aurelia-pal';
+require('../Styles/style.scss');
 
 export function configure(aurelia: Aurelia) {
   aurelia.use.standardConfiguration();
@@ -13,5 +14,5 @@ export function configure(aurelia: Aurelia) {
     aurelia.use.developmentLogging();
   }
   
-  aurelia.start().then(() => aurelia.setRoot(PLATFORM.moduleName('app')));
+  aurelia.start().then(() => aurelia.setRoot(PLATFORM.moduleName('App')));
 }

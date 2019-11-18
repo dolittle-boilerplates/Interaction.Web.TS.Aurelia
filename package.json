@@ -1,14 +1,14 @@
 {
   "name": "@dolittle/boilerplates.interaction.web.ts.aurelia",
   "version": "1.0.0",
-  "description": "TypeScript aurelia interaction layer boilerplate",
+  "description": "TypeScript aurelia interaction layer boilerplate for typescript",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dolittle-boilerplates/Interaction.Web.TS.Aurelia.git"
   },
   "keywords": ["dolittle", "tooling", "boilerplates", "interaction-layer"],
   "dolittle": {
-    "tooling": "7.*"
+    "tooling": "8.*"
   },
   "author": "Dolittle",
   "license": "MIT",

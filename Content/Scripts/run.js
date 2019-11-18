@@ -1,7 +1,6 @@
 #!/usr/local/bin/node
 const glob = require('glob');
 const path = require('path');
-const karma = require('karma');
 const webpack = require('webpack');
 const { spawn } = require('child_process');
 
@@ -23,14 +22,8 @@ compiler.watch({
     }
 });
 
-/*
-let karmaOptions = {
-    configFile : path.resolve('./karma.conf.js')
-};
-let server = new karma.Server(karmaOptions).start()
-*/
 
-glob("../Core/*.csproj", (err, matches) => {
+glob("../../Core/*.csproj", (err, matches) => {
     if (matches.length) {
         let dotnet = spawn('dotnet', ['watch','run'], {cwd: '../Core'});
         dotnet.stdout.on('data', (data) => {
