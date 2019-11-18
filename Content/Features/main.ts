@@ -8,11 +8,11 @@ import { PLATFORM } from 'aurelia-pal';
 require('../Styles/style.scss');
 
 export function configure(aurelia: Aurelia) {
-  aurelia.use.standardConfiguration();
+    aurelia.use.standardConfiguration();
 
-  if (environment.debug) {
-    aurelia.use.developmentLogging();
-  }
-  
-  aurelia.start().then(() => aurelia.setRoot(PLATFORM.moduleName('App')));
+    if (environment.debug) {
+        aurelia.use.developmentLogging();
+    }
+
+    aurelia.start().then(() => aurelia.setRoot(PLATFORM.moduleName('App')));
 }
