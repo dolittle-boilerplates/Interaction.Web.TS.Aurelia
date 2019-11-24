@@ -5,6 +5,7 @@
 import { Aurelia } from 'aurelia-framework';
 import environment from './environment';
 import { PLATFORM } from 'aurelia-pal';
+import 'aurelia-polyfills';
 require('../Styles/style.scss');
 
 export function configure(aurelia: Aurelia) {
