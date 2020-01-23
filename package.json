@@ -1,6 +1,6 @@
 {
   "name": "@dolittle/boilerplates.interaction.web.ts.aurelia",
-  "version": "1.1.4",
+  "version": "2.0.0",
   "description": "TypeScript aurelia interaction layer boilerplate for typescript",
   "repository": {
     "type": "git",
