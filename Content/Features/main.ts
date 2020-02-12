@@ -15,5 +15,5 @@ export function configure(aurelia: Aurelia) {
         aurelia.use.developmentLogging();
     }
 
-    aurelia.start().then(() => aurelia.setRoot(PLATFORM.moduleName('App')));
+    aurelia.start().then(() => aurelia.setRoot(PLATFORM.moduleName('app')));
 }
