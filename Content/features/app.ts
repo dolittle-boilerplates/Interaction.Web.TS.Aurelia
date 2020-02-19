@@ -11,7 +11,7 @@ export class App {
 
     configureRouter(config: RouterConfiguration, router: Router) {
         config.options.pushState = true;
-        config.map([{ route: '', name: 'Home', moduleId: PLATFORM.moduleName('Home') }]);
+        config.map([{ route: '', name: 'Home', moduleId: PLATFORM.moduleName('home') }]);
 
         this.router = router;
     }

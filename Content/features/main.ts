@@ -6,7 +6,7 @@ import { Aurelia } from 'aurelia-framework';
 import environment from './environment';
 import { PLATFORM } from 'aurelia-pal';
 import 'aurelia-polyfills';
-require('../Styles/style.scss');
+require('../styles/style.scss');
 
 export function configure(aurelia: Aurelia) {
     aurelia.use.standardConfiguration();
@@ -15,5 +15,5 @@ export function configure(aurelia: Aurelia) {
         aurelia.use.developmentLogging();
     }
 
-    aurelia.start().then(() => aurelia.setRoot(PLATFORM.moduleName('App')));
+    aurelia.start().then(() => aurelia.setRoot(PLATFORM.moduleName('app')));
 }
